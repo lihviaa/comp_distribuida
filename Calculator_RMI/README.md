@@ -6,7 +6,7 @@ This project implements a remote calculator service using Java RMI (Remote Metho
 
 The workspace contains three main folders, where:
 
-- `assets`: the foulder that contains the execution png
+- `assets`: the folder that contains the execution png
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
 
@@ -73,6 +73,7 @@ java CalculatorClient
 ## Example Output
 Upon running the client, you will see output for operations with double values, fractions, and complex numbers, such as:
 
+<img src ="https://github.com/lihviaa/comp_distribuida/blob/main/assets/execucao.png" alt="Execução do programa">
 
 ## Notes
 - Ensure that the RMI registry is running before starting the server.
