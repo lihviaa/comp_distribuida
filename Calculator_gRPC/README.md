@@ -71,5 +71,6 @@ The result are printed in the console.
 ### 3. Example
 Here's an example of the fraction operations performed by the client:
 
+<img src="https://github.com/lihviaa/comp_distribuida/blob/main/assets/execucao_calc_grmp.png">
 
 In this example, the client creates two fractions: `1/2` and `2/3`, and performs all the available operations.
