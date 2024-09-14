@@ -6,7 +6,7 @@ This project implements a remote calculator service using Java RMI (Remote Metho
 
 The workspace contains three main folders, where:
 
-- `assets`: the foulder that contains the execution png
+- `assets`: the folder that contains the execution png
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
 
