@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+package calculator;
+
+// The calculator service definition
+service Calculator {
+
+  // Addition
+  rpc Add (FractionOpRequest) returns (FractionResponse);
+
+  // Subtraction
+  rpc Sub (FractionOpRequest) returns (FractionResponse);
+
+  // Multiply
+  rpc Mult (FractionOpRequest) returns (FractionResponse);
+
+  // Divide 
+  rpc Div (FractionOpRequest) returns (FractionResponse);
+
+  // Max
+  rpc Max (FractionOpRequest) returns (FractionResponse);
+
+  // Min
+  rpc Min (FractionOpRequest) returns (FractionResponse);
+}
+
+// Defining Fraction
+message Fraction{
+  int32 numerator = 1;
+  int32 denominator = 2;
+}
+
+
+// Requesting operation
+message FractionOpRequest {
+  Fraction fraction1 = 1;
+  Fraction fraction2 = 2;
+}
+
+// The response message containing the result
+message FractionResponse {
+  Fraction result = 1;
+}
+
+
