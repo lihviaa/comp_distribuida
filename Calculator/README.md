@@ -73,6 +73,7 @@ java CalculatorClient
 ## Example Output
 Upon running the client, you will see output for operations with double values, fractions, and complex numbers, such as:
 
+<img src ="https://github.com/lihviaa/comp_distribuida/blob/main/assets/execucao.png" alt="Execução do programa">
 
 ## Notes
 - Ensure that the RMI registry is running before starting the server.
