@@ -43,7 +43,7 @@ First, generate the Python code from the Protocol Buffer file (`calc.proto`) usi
 **[Ensure that you are in the same directory where the `calc.proto`file is located]**
 
 ```
-python -m grpc_tools.protoc -I=. --python_out= --grpc_python_out=. calc.proto
+python -m grpc_tools.protoc -I. --python_out=. --grpc_python_out=. calc.proto
 ```
 
 This command generates two files:
