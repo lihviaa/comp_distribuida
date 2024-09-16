@@ -1,4 +1,4 @@
-# Calculadora de Frações com gRPC
+# Fraction Calculator with gRPC
 
 This project implements a Fraction Calculator using gRPC (Google Remote Procedutre Call). The service and client are both written in Python, leveraging Protocol Buffers for defining the service structure and the data exchanged between client and server.
 
