@@ -61,7 +61,7 @@ This will star the gRPC server on port `50054`.
 ---
 
 **Client**
-Once the server is running, you can run the client to perform fraction calculations:
+Once the server is running, you can run the client in another terminal to perform fraction calculations:
 ```
 python calc_client.py
 ```
